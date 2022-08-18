@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snapshot_ensemble"
+description = "Train TensorFlow Keras models with Cosine Annealing and save an ensemble of models with no additional computational expense."
+authors = [
+    {name = "Adam Wu"},
+    {email = "adamwu1@outlook.com"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "tensorflow",
+    "matplotlib",
+    "glob",
+]
+classifiers = [
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'Topic :: Scientific/Engineering :: Information Analysis',
+    'Programming Language :: Python',
+    'Operating System :: OS Independent',
+    'License :: OSI Approved :: MIT License'
+]
+dynamic = [ "version" ]
+
+[tool.setuptools.dynamic]
+version = {attr = "snapshot_ensemble.__version__"}
+
+[project.urls]
+homepage = "https://github.com/adamvvu/snapshot_ensemble"
+documentation = "https://github.com/adamvvu/snapshot_ensemble"
+repository = "https://github.com/adamvvu/snapshot_ensemble"
