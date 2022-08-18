@@ -35,7 +35,7 @@ to be used during training.
 
 ### Installation
 
-`pip install snapshot_ensemble`
+`pip install snapshot-ensemble`
 
 #### Dependencies:
 
