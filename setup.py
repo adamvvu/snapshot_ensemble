@@ -37,7 +37,6 @@ setup(
         'numpy',
         'tensorflow',
 	'matplotlib',
-	'glob',
     ],
     license_files = ('LICENSE',),
 )

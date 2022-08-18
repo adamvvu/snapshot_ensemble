@@ -16,7 +16,6 @@ dependencies = [
     "numpy",
     "tensorflow",
     "matplotlib",
-    "glob",
 ]
 classifiers = [
     'Intended Audience :: Science/Research',
