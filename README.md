@@ -92,7 +92,7 @@ will need to be tuned. There is a helper function `VisualizeLR()` to visualize t
 
 ### Example
 
-For a full example, see this
+For a simple example, see this
 [notebook](https://adamvvu.github.io/snapshot_ensemble/examples/Example.ipynb).
 
 ## References
