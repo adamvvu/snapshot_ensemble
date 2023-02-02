@@ -1,4 +1,4 @@
-[![Build](https://img.shields.io/github/workflow/status/adamvvu/snapshot_ensemble/Unit%20Tests?style=for-the-badge)](https://github.com/adamvvu/snapshot_ensemble/actions/workflows/snapshot_ensemble_tests.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/adamvvu/snapshot_ensemble/snapshot_ensemble_tests.yml?style=for-the-badge)](https://github.com/adamvvu/snapshot_ensemble/actions/workflows/snapshot_ensemble_tests.yml)
 [![PyPi](https://img.shields.io/pypi/v/snapshot_ensemble?style=for-the-badge)](https://pypi.org/project/snapshot_ensemble/)
 [![Downloads](https://img.shields.io/pypi/dm/snapshot_ensemble?style=for-the-badge)](https://pypi.org/project/snapshot_ensemble/)
 [![License](https://img.shields.io/pypi/l/snapshot_ensemble?style=for-the-badge)](https://github.com/adamvvu/snapshot_ensemble/blob/master/LICENSE)
